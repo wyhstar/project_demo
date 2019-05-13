@@ -14,7 +14,7 @@ npm/cnpm install --save vue-i18n
 
 npm run dev
 
-简介
+# 简介
 
 目前有登录页，首页（未处理），table页，form表单页
 
