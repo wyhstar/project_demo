@@ -1,0 +1,50 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+  font-weight: 400;
+  overflow: visible;
+  -webkit-font-smoothing: antialiased;
+}
+.marginLeftVal{
+margin-left: 64px;
+}
+.router-connect{
+display:  block;
+color: #fff;
+text-decoration: none;
+}
+.panel{
+border-radius: 6px;
+margin-bottom: 25px;
+border: 1px solid #ebe6e6;
+
+}
+.panel .panel-header{
+  height: 45px;
+  line-height: 45px;
+  background: #ddd;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  color: #626060;
+}
+.panel form{
+  padding: 0 15px;
+}
+.text-right{
+text-align: right;
+}
+.table_box{
+  padding-right: 0 !important;
+  width: calc(100% - 20px);
+}
+.addTables .form_boxssss{
+  width: 600px;
+}
+.addTables .tc{
+  text-align: center;
+}
+.addTables .w100{
+  width: 100%;
+}
