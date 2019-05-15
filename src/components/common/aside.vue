@@ -41,7 +41,7 @@ export default {
             router: "/home",
             name: "routers.homepage",
             icon: "iconfont icon-shouye",
-            index: "1-1",
+            index: "1",
           }
         ],
         table: [
@@ -49,15 +49,18 @@ export default {
             router: "/tablepage/table",
             name: "routers.table",
             icon: "iconfont icon-biaoge",
-            index: "2-1",
+            index: "2",
           }
         ],
       },
     };
   },
-  created() { },
+  created() {
+    this.selectAside = sessionStorage.getItem('indexItem');
+  },
   methods: {
     routerClick: function(item, index,) {
+      sessionStorage.setItem('indexItem',index);
       var host = document.domain;
       if (host == "localhost") {
         this.$router.push({ path: item.router });
